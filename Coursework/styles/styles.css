@@ -1,0 +1,236 @@
+/*filename: [style.css] 
+author: [Joel Yeow] 
+Created: [3/9/20]
+Description: Refers to index.html, about.html,product.html,enquire.html
+*/
+
+/* References for background and images
+   https://unsplash.com/
+   https://www.pexels.com/
+*/
+
+
+
+* {
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+
+}
+
+nav {
+   background-color: black;
+   height: 80px;
+   width: 100%;
+
+}
+nav .logo {
+    color:white;
+    font-size: 40px;
+    padding: 25px 140px 20px 150px;
+    font-weight: bold;
+    line-height: 80px;
+    /*float: left;*/
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0px 5px;
+    padding: 20px 20px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+
+}
+.header {
+    background:url(Images/index.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+.textwrapper {
+   font-size: 35px;
+   padding: 200px 39px;
+   line-height: 80px;
+}
+.textwrapper2 {
+    padding: 1px 50px 200px 200px;
+    display: flex;
+
+}
+.benefits {
+
+    font-size: 35px;
+    line-height: 80px;
+}
+.container {
+    text-align: center;
+    
+}
+.btn1 {
+    border: 1px solid blue;
+    padding: 10px 20px;
+    font-size: 25px;
+
+}
+.headerTwo {
+    background:url(Images/about.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.aboutme {
+  
+    font-size: 30px;
+    width: 70%;
+	float: left;
+	padding: 520px 300px;
+    display: flex;
+   
+    
+   
+}
+.selfpic {
+    width: 15%;
+    height: 15%;
+    
+}
+.mypic {
+    padding: 400px 300px 0px 0px;
+    border: 50px black;
+}
+.sample {
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+.productsample {
+    width: 800px;
+    height: 500px;
+    
+    
+}
+
+
+.sectionImage {
+    background:url(Images/productBackground.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+h2 {
+    padding: 70px 10px 10px 180px;
+    font-size: 40px;
+}
+aside {
+    float: right;
+    padding: 30px 30px 30px 30px;
+    
+    background-color: white;
+    height: 250px;
+    width: 250px;
+}
+table {
+    padding: 30px 160px 120px 50px;
+    border-spacing: 50px;
+    font-size: 30px;
+    
+  
+}
+.features {
+    float: right;
+    padding: 90px 300px 0px 0px;
+    font-size: 25px;
+    list-style-type: circle;
+}
+.features2 {
+    
+    float: right;
+    padding:15px 30px 30px 5px; 
+}
+
+.sample {
+    float: right;
+    padding: 70px 100px 0px 0px;
+}
+.product {
+    
+    
+    width: 80%;
+    height: 80%;
+}
+.planType {
+    background-color: #009879;
+    font-weight: bold;
+}
+
+.sectionImage2 {
+    background:url(Images/enquire.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+    align-items: center;
+}
+
+/* Payment gateway */
+
+#payBackground {
+    background: url(Images/payment.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+#gatewayTitle {
+   margin-left: 5px;
+}
+#detailsform
+{
+    margin-left: 60px;
+}
+
+
+/*Receipt*/
+
+#receiptBackground {
+
+    background:url(Images/receipt.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+#receipt 
+{
+    padding-left: 230px;
+    padding-top: 90px;
+    font-size: 80px;
+}
+
+
+
+
+/*Footer*/
+.footer {
+    height: 30px;
+    background-color: white;
+}.footerCenter {
+    text-align: center;
+}
+.footertext {
+    font-size: 20px;
+    padding: 0px 40px;
+    font-weight: bold;
+    line-height: 80px;
+}
+

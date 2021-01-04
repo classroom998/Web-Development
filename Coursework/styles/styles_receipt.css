@@ -1,0 +1,123 @@
+
+
+
+* {
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+
+}
+
+
+
+/*Startt of Nav Bar Styles*/
+
+
+nav {
+   background-color: black;
+   height: 80px;
+   width: 100%;
+
+}
+nav .logo {
+    color:white;
+    font-size: 40px;
+    padding: 25px 140px 20px 150px;
+    font-weight: bold;
+    line-height: 80px;
+    /*float: left;*/
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 40px;
+    margin: 0px 5px;
+    padding: 20px 20px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+
+}
+
+
+/*End of Nav Bar Styles*/
+
+/*Background Image */
+
+#container
+{
+    width:100%;
+    height:100vh;
+    position: relative;
+    background-image: url(Images/receipt.jpg);
+    background-size: cover;
+}
+
+#receipt{
+    font-size: 50px;
+    padding-top: 40px;
+   text-align: center;
+   padding-bottom: 40px;
+}
+
+
+table
+{
+
+border-style:solid;
+border-width:2px;
+border: 3px solid black;
+  padding: 5px;
+  border-collapse: collapse;
+  background-color:white; 
+
+ 
+
+ 
+
+}
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left; 
+    column-span: 40px; 
+    text-align: center; 
+   
+  
+  
+}
+
+td{
+    font-style: oblique;
+}
+#tablePosition{
+    position: absolute;
+}
+
+
+
+
+
+
+/*Footer*/
+.footer {
+    height: 30px;
+    background-color: white;
+}.footerCenter {
+    text-align: center;
+}
+.footertext {
+    font-size: 20px;
+    padding: 0px 40px;
+    font-weight: bold;
+    line-height: 80px;
+}
