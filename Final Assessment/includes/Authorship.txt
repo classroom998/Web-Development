@@ -1,0 +1,6 @@
+This is the authorship details for
+
+filename: [menu.inc,footer.inc,index_menu.inc] 
+author: [Joel Yeow] 
+Created: [24/11/20]
+Description: Refers to menu,index_menu, and footer server-side include files
