@@ -1,0 +1,333 @@
+/*filename: [style.css] 
+author: [Joel Yeow] 
+Created: [24/11/20]
+Description: Refers to index,register,manager, menu,index_menu, and footer
+*/
+
+/* References for background and images
+   https://unsplash.com/
+   https://www.pexels.com/
+*/
+
+
+
+
+.background {
+    background:url(Images/index.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+
+/* Custom Menu for Index */
+
+.index_menu {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+ 
+ }
+ img{
+    max-width:100%; 
+    height:100%; 
+    padding-left: 190px;
+    padding-top: 1px;
+
+ }
+
+
+.index_menu ul {
+    float: right;
+    padding-right: 20px;
+   
+}
+
+.index_menu ul li {
+    display: inline-block;
+    line-height: 5px;
+    margin: 0px 5px;
+    padding: 20px 20px 20px 0px;
+}
+.index_menu ul li a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+  .index_menu:hover
+  {
+    background-color: white;
+
+  }
+  .index_menu a:hover {
+    
+    color: black;
+  }
+
+
+   
+
+
+/* General Menu*/
+
+nav  {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+ 
+ }
+ img{
+    max-width:100%; 
+    height:100%; 
+    padding-left: 190px;
+    padding-top: 1px;
+
+ }
+
+
+nav ul {
+    float: right;
+    padding-right: 20px;
+   
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 5px;
+    margin: 0px 5px;
+    padding: 20px 20px 20px 0px;
+}
+nav ul li a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+
+/*Index*/
+p {
+    text-align: justify;
+    text-justify: auto;
+}
+.index_h1
+{
+    text-shadow: 1px 2px black;
+}
+
+
+
+
+/*Seminar 1*/
+.container1 {
+
+    background-color: white;
+    opacity: 0.8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+.sem1 {
+    padding-left: 0px;
+    padding-top: 70px;
+
+}
+.button_sem1 {
+    border: none;
+  color: black;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin: 4px 2px;
+  background-color: orange;
+}
+
+
+/*Seminar 2*/
+.container2 {
+
+    background-color: white;
+    opacity: 0.8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+}
+.sem2 {
+    padding-left: 0px;
+    padding-top: 70px;
+
+  
+}
+.button_sem2 {
+    border: none;
+  color: black;
+  display: inline-block;
+  font-size: 16px;
+
+  padding: 15px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  background-color: orange;
+}
+
+
+
+/*Register*/
+.register_background
+{
+    background:url(Images/Register.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+.register_container {
+    background-color: white;
+    opacity: 1;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.register_button
+{
+    margin-top: 10px;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+   
+    background-color: orange;
+}
+
+
+/*Manager*/
+
+.manager_background
+{
+    background:url(Images/Manager.jpg);
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+}
+.manager_container {
+
+      background-color: white;
+      opacity: 0.95;
+      padding-top: 30px;
+      padding-bottom: 30px;
+       
+}
+
+.manager_section {
+
+    padding-top: 100px;
+}
+
+.search_box {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 60px;
+  padding-left: 20px;
+  width: 600px;
+  font-size: 25px;
+
+  border: 3px solid black;
+  border-radius: 4px;
+
+
+}
+/*input[type=text] {
+   
+    border: 3px solid black;
+    border-radius: 4px;
+}*/
+.search_manager {
+    margin-top: 30px;
+    margin-left: 630px;
+    text-align: center;
+    background-color: orange;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    opacity: 0.8;
+}
+.search_type
+{
+    margin-left: 10px;
+    background-color: #4CAF50;
+    padding: 16px;
+    font-size: 16px;
+  color: white;
+  opacity: 0.9;
+}
+.search_option-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.search_result {
+      /*background-color: white;*/
+      margin-top: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    
+  }
+
+  
+
+  /*Search table Result*/
+table
+{
+
+border-style:solid;
+padding: 7px;
+border-collapse: collapse;
+background-color:white; 
+border-width:2px;
+margin-left: auto;
+margin-right: auto;;
+border: 3px solid black;
+
+}
+th{
+    padding-top: 12px;
+    text-align: left;
+    background-color: orange;
+    padding-bottom: 12px;
+    color: black;
+}
+
+td,th{
+    padding: 8px;
+    border: 1px solid #ddd;
+ 
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;} 
+
+
+/*Footer*/
+.footer {
+    height: 30px;
+    /*background-color: white;*/
+
+
+}.footerCenter {
+    text-align: center;
+    background:url(Images/footerbg.jpg); /*Added from additional requirement*/
+
+}
+.footertext {
+    font-size: 20px;
+    padding: 0px 40px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
