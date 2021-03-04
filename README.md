@@ -1,7 +1,7 @@
 # Web-Development
 A repository of my web-related projects
 
-Link (Coursework):
+Link (Coursework/Web Hosting Services):
 
 
-Link(Final Assessment):
+Link(Final Assessment/ Seminar Booking App):
